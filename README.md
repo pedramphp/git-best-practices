@@ -38,3 +38,19 @@ Common in open source projects, easier to read.
 git checkout feature-branch
 git rebase master
 ```
+
+
+Interactive rebasing.
+
+```sh
+git rebase -i BRANCH_NAME
+```
+
+```sh
+git rebase -i COMMIT_HASH
+```
+you can do the following
+- edit commit messages
+- squash
+- remove commit
+- reorder commits.
